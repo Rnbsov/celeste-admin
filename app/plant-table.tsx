@@ -36,7 +36,7 @@ export const PlantTable = ({ plants }: PlantTableProps) => {
           </TableHeader>
           <TableBody>
             {plants.map((plant) => (
-              <TableRow key={plant.id} className='hover:bg-[#282c2d] border-t border-[#203e40]'>
+              <TableRow key={plant.id} className='hover:bg-[#282c2c] bg-[#242626]'>
                 <TableCell>
                   <div className='flex items-center gap-3'>
                     <div className='w-10 h-10 rounded-full bg-[#282c2d] overflow-hidden flex items-center justify-center'>
