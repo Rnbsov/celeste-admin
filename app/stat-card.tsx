@@ -1,9 +1,10 @@
+import { NumberTicker } from '@/components/animations/number-ticker'
 import { LucideIcon } from 'lucide-react'
 import React from 'react'
 
 interface StatCardProps {
   title: string
-  value: string
+  value: number
   icon: LucideIcon
   trend: {
     value: string
