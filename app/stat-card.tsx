@@ -14,7 +14,7 @@ interface StatCardProps {
 
 export const StatCard = ({ title, value, icon: Icon, trend }: StatCardProps) => {
   return (
-    <div className='bg-[#162a2b] rounded-lg p-6 border-l-4 border-[#b8ce95]'>
+    <div className='bg-[#111312] rounded-lg p-6 border-l-4 border-[#b8ce95]'>
       <div className='flex justify-between items-start'>
         <div>
           <p className='text-sm text-[#88908d] font-medium'>{title}</p>
@@ -40,7 +40,7 @@ export const StatCard = ({ title, value, icon: Icon, trend }: StatCardProps) => 
             <span className='text-[#88908d] ml-1'>{trend.comparisonText}</span>
           </p>
         </div>
-        <div className='bg-[#1d3638] p-3 rounded-md'>
+        <div className='bg-[#282c2d] p-3 rounded-md'>
           <Icon className='text-[#b8ce95] text-xl' />
         </div>
       </div>
