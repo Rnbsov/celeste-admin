@@ -65,7 +65,7 @@ export default function Main() {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8'>
         <StatCard
           title='Total Users'
-          value={1.245}
+          value={1245}
           icon={Users}
           trend={{
             value: '8%',
@@ -76,7 +76,7 @@ export default function Main() {
 
         <StatCard
           title='Active Plants'
-          value={3.842}
+          value={3842}
           icon={Sprout}
           trend={{
             value: '12.5%',
@@ -87,7 +87,7 @@ export default function Main() {
 
         <StatCard
           title='Total Diary Entries'
-          value={12.654}
+          value={12364}
           icon={BookOpen}
           trend={{
             value: '4.2%',
