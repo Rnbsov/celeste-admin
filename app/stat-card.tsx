@@ -18,7 +18,7 @@ export const StatCard = ({ title, value, icon: Icon, trend }: StatCardProps) => 
       <div className='flex justify-between items-start'>
         <div>
           <p className='text-sm text-[#88908d] font-medium'>{title}</p>
-          <h2 className='text-3xl font-bold text-white'>{value}</h2>
+          <NumberTicker value={value} className='text-3xl font-bold text-white' />
           <p className='text-sm flex items-center mt-2'>
             <span className={`${trend.isPositive ? 'text-[#b8ce95]' : 'text-[#ff5252]'} flex items-center`}>
               <svg
