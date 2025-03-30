@@ -22,9 +22,9 @@ const SidebarItem = ({ item }: { item: MenuItem }) => {
         <Link
           href={item.route}
           className={cn(
-            'group relative flex justify-between items-center rounded-lg px-4 py-2 font-medium text-grayPrimary duration-300 ease-in-out cursor-pointer hover:text-darkPrimary',
-            isActive && 'bg-secondaryEmerald text-darkPrimary',
-            !isActive && 'hover:bg-secondaryEmerald/80'
+            'group relative flex justify-between items-center rounded-lg px-4 py-2 font-medium text-[#88908d] duration-300 ease-in-out cursor-pointer hover:text-[#111313]',
+            isActive && 'bg-emerald-400 text-[#111313]',
+            !isActive && 'hover:bg-emerald-400/80'
           )}
         >
           <div className='flex gap-2.5'>
